@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="682.0" prefWidth="1100.0" styleClass="loginPage" stylesheets="@loginpage.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bankapp.HelloController">
+    <children>
+        <Label id="lbllogin" layoutX="362.0" layoutY="141.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="64.0" prefWidth="324.0" stylesheets="@loginpage.css" text="      LOGIN PAGE">
+            <font>
+                <Font name="System Bold Italic" size="30.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtLusername" layoutX="482.0" layoutY="255.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#onTypeUsername" prefHeight="39.0" prefWidth="240.0" />
+        <Label layoutX="362.0" layoutY="255.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="39.0" prefWidth="80.0" text="USERNAME" />
+        <Label layoutX="362.0" layoutY="341.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="39.0" prefWidth="80.0" text="PASSWORD" />
+        <Label fx:id="lblSignUp" layoutX="311.0" layoutY="540.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onMouseClicked="#onSignUPlg" prefHeight="39.0" prefWidth="479.0" styleClass="signUpButon" stylesheets="@loginpage.css" text=" Don't have an account? Click here to sign up.">
+            <font>
+                <Font size="20.0" />
+            </font></Label>
+      <Button fx:id="btnLogin" layoutX="481.0" layoutY="439.0" mnemonicParsing="false" onAction="#onLogin" prefHeight="39.0" prefWidth="138.0" text="login">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="txtLpassword" layoutX="482.0" layoutY="341.0" prefHeight="39.0" prefWidth="240.0" />
+    </children>
+</AnchorPane>

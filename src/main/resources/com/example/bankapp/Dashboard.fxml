@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="682.0" prefWidth="1100.0" styleClass="loginPage" stylesheets="@loginpage.css" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="ACCOUNT">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="140.0" layoutY="27.0" prefHeight="62.0" prefWidth="347.0" styleClass="displaylabels" stylesheets="@loginpage.css" text="ACCOUNT HOLDER:">
+                     <font>
+                        <Font name="System Bold Italic" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="140.0" layoutY="115.0" prefHeight="66.0" prefWidth="349.0" styleClass="displaylabels" stylesheets="@loginpage.css" text="ACCOUNT TYPE:">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="141.0" layoutY="204.0" prefHeight="63.0" prefWidth="347.0" styleClass="displaylabels" stylesheets="@loginpage.css" text="ACCOUNT BALANCE:">
+                     <font>
+                        <Font name="System Bold Italic" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="140.0" layoutY="298.0" prefHeight="67.0" prefWidth="350.0" styleClass="displaylabels" stylesheets="@loginpage.css" text="ACCOUNT ID:">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="184.0" layoutY="395.0" prefHeight="63.0" prefWidth="781.0" text="First time signing in? click on the MANAGE ACCOUNT/ SETUP button to setup your account.">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="276.0" layoutY="501.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="155.0" text="WITHDRAW" />
+                  <Button layoutX="487.0" layoutY="501.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="157.0" text="TRANSFER" />
+                  <Button layoutX="695.0" layoutY="500.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="219.0" text="MANAGE ACCOUNT/ SETUP" />
+                  <Button layoutX="962.0" layoutY="500.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="129.0" text="LOGOUT" />
+                  <Button layoutX="52.0" layoutY="502.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="169.0" text="DEPOSIT" />
+                  <Label layoutX="575.0" layoutY="27.0" prefHeight="65.0" prefWidth="460.0" text="Label">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="575.0" layoutY="115.0" prefHeight="65.0" prefWidth="460.0" text="Label">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="575.0" layoutY="204.0" prefHeight="65.0" prefWidth="460.0" text="Label">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="575.0" layoutY="298.0" prefHeight="65.0" prefWidth="459.0" text="Label">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+         </content></Tab>
+    <Tab text="DEPOSIT">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" stylesheets="@loginpage.css">
+               <children>
+                  <Label layoutX="275.0" layoutY="120.0" prefHeight="64.0" prefWidth="173.0" styleClass="displaylabels" stylesheets="@loginpage.css" text="AMOUNT">
+                     <font>
+                        <Font name="System Bold Italic" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="196.0" layoutY="233.0" prefHeight="78.0" prefWidth="738.0" text="Label" />
+                  <TextField layoutX="519.0" layoutY="122.0" prefHeight="60.0" prefWidth="372.0" />
+                  <Button layoutX="448.0" layoutY="376.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="340.0" text="DEPOSIT">
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                  </Button>
+               </children></AnchorPane>
+         </content></Tab>
+      <Tab text="WITHDRAW">
+        <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                <children>
+                    <Label layoutX="275.0" layoutY="120.0" prefHeight="64.0" prefWidth="173.0" styleClass="displaylabels" stylesheets="@loginpage.css" text="AMOUNT">
+                        <font>
+                            <Font name="System Bold Italic" size="30.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="196.0" layoutY="233.0" prefHeight="78.0" prefWidth="738.0" text="Label" />
+                    <TextField layoutX="519.0" layoutY="122.0" prefHeight="60.0" prefWidth="372.0" />
+                    <Button layoutX="448.0" layoutY="376.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="362.0" text="WITHDRAW">
+                        <font>
+                            <Font size="50.0" />
+                        </font>
+                    </Button>
+                </children></AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="TRANSFER">
+        <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                <children>
+                    <Label layoutX="275.0" layoutY="127.0" prefHeight="64.0" prefWidth="173.0" text="AMOUNT">
+                        <font>
+                            <Font name="System Bold Italic" size="30.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="199.0" layoutY="375.0" prefHeight="78.0" prefWidth="738.0" text="Label" />
+                    <TextField layoutX="519.0" layoutY="122.0" prefHeight="73.0" prefWidth="463.0" />
+                    <Button layoutX="461.0" layoutY="473.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="340.0" text="TRANSFER">
+                        <font>
+                            <Font size="50.0" />
+                        </font>
+                    </Button>
+                  <TextField layoutX="519.0" layoutY="224.0" prefHeight="72.0" prefWidth="465.0" />
+                  <Label layoutX="69.0" layoutY="231.0" prefHeight="59.0" prefWidth="400.0" text="RECIPIENT ACCOUNT ID">
+                     <font>
+                        <Font name="System Bold Italic" size="30.0" />
+                     </font>
+                  </Label>
+                </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="MANAGE ACCOUNT">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="111.0" layoutY="67.0" text="Label" />
+                  <Label layoutX="136.0" layoutY="198.0" text="Label" />
+                  <Label layoutX="93.0" layoutY="297.0" text="Label" />
+                  <Label layoutX="100.0" layoutY="380.0" text="Label" />
+                  <Label layoutX="111.0" layoutY="477.0" text="Label" />
+                  <Button layoutX="244.0" layoutY="92.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="256.0" layoutY="214.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="256.0" layoutY="326.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="235.0" layoutY="419.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="244.0" layoutY="493.0" mnemonicParsing="false" text="Button" />
+                  <TextField layoutX="421.0" layoutY="55.0" />
+                  <TextField layoutX="448.0" layoutY="174.0" />
+                  <TextField layoutX="473.0" layoutY="301.0" />
+                  <TextField layoutX="465.0" layoutY="419.0" />
+                  <TextField layoutX="473.0" layoutY="493.0" />
+               </children></AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

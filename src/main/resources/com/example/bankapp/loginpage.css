@@ -1,0 +1,35 @@
+#lbllogin{
+    -fx-background-color: #86f1a1;
+    -fx-background-insets: 10;
+}
+
+
+.hellopage{
+    -fx-background-image: url("bgpic.png");
+    -fx-background-size: cover;
+}
+
+.hellopagecontinuebutton{
+    -fx-background-color: #6ff39d;
+}
+
+.loginPage{
+    -fx-background-color: #72d9e7;
+}
+
+.signUpButon{
+    -fx-background-color: #12427e;
+    -fx-text-fill: white;
+
+}
+
+
+.displaylabels{
+    -fx-background-color: #0bb7ea;
+}
+
+/*3e688c*/
+/*03a63c*/
+/*5ba66e*/
+/*69bf6f*/
+
